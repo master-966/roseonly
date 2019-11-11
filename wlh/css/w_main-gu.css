@@ -1,0 +1,194 @@
+@charset "UTF-8";
+.w_maincon{width: 1240px;margin: 0 auto;}
+.w_main{
+    background: #414141;
+}
+.w_maincon{
+    height: 42px;
+    background: #414141;
+    position: relative;
+}
+ul li{
+    float: left;
+}
+.ps{
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    width: 72px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px; 
+    font-size: 18px;
+    margin-left: 20px;
+    background: #414141;
+}
+.ps:hover p{
+    cursor: pointer;
+    width: 72px;
+    height: 42px;
+    background: white;
+}
+.ps:hover .uls{
+    display: block;
+}
+
+
+.uls{
+    /*  .uls{ */
+    width: 100%;
+    height: 322px;
+    position: fixed;
+    top: 42px;
+    left: 100px;
+    overflow: hidden ;
+    display: none;
+    border-bottom: 3px solid #414141;
+}
+.uls-con{
+    height: 322px;
+    margin: 0 auto;
+    display: flex;
+}
+.uls-con .ulss{
+    /* list-style-type: none; */
+    width: 171px;
+    height: 322px;
+    font-size: 15px;
+}
+
+.uls-con .ulss .ols{
+    display: flex;
+    /* 灵活的项目将垂直显示，正如一个列一样 */
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+    margin: 20px 10px 0px 0px;
+}
+.uls-con .ulss strong{
+    margin: 5px 10px 30px 30px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.uls-con .ulss .ols dd{
+    margin: 0px 0px 0px 30px;
+}
+
+.uls-con .ulss .ols:hover{
+    cursor: pointer;
+}
+ .uls-con .ulss:not(:nth-child(3)) {
+    border-right: 2px solid #d2d5e4;
+}
+
+.uls-con .uls4{
+    margin: 22px 0px 0px 30px;
+}
+
+.uls-con .uls4:hover{
+    cursor: pointer;
+}
+
+.gao .uls4{
+    margin: 22px 0px 0px 377px;
+}
+
+.gao .uls-con .ulss:not(:nth-child(1)) {
+    border-right: 2px solid #d2d5e4;
+}
+
+.nuo .uls4{
+    margin: 22px 0px 0px 203px;
+}
+.nuo .uls-con .ulss:not(:nth-child(2)) {
+    border-right: 2px solid #d2d5e4;
+}
+
+
+/* 右边矢量图部分 */
+.w_right{
+    width: 104px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    float: left;
+    display: flex;
+    position: fixed;
+    top: 9px;
+    right: 43px;
+    font-size: 20px;
+}
+.w_right p{
+    color: white;
+    cursor: pointer;
+}
+
+
+/* 第一个矢量图  */
+.w_rightl {
+    width: 20px;
+    height: 38px;
+    margin: 0px 1px 0px -19px; 
+}
+.w_rightl:hover .w_rightlf{
+    display: block;
+}
+/* 隐藏部分 */
+.w_rightlf{
+    width: 302px;
+    height: 172px;
+    background: white;
+    position: absolute;
+    display: none;
+    margin: 13px 0px 0px -154px;
+}
+/* 登陆 */
+.w_rightlfp1{
+    width: 269px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid #d8d8d8;
+    margin-left: 18px;
+}
+.w_rightlfp2 img{
+    width: 78px;
+    /* width: 1340px; */
+    height: 78px;
+    margin: 21px 22px 0px -167px;
+}
+.w_txt{
+    font-size: 14px;
+    width:190px;
+    /* width:1600px; */
+    height: 99px;
+    margin:-82px 22px 0px 122px;
+}
+
+
+/* 第二个矢量图  */
+.w_rightz {
+    width: 55px;
+    height: 20px;
+    border-left: 1px solid #262626;
+    border-right: 1px solid #262626;
+    margin: 0px  4px  0px  4px;
+}
+.w_rightz p{
+    margin: 0px  4px  0px  4px;
+}
+/* 第三个矢量图  */
+.w_rightr {
+    margin-left:2 px;
+}
+
+.w_blackcon{
+    height: 97px;
+    background: #414141;
+    border-top: 4px solid #262626;
+    text-align: center;
+    line-height: 97px;
+} 
+
+
