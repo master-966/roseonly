@@ -1,0 +1,120 @@
+  #d_footer {
+    background: #414141;
+    height: 272px; }
+
+    
+  #d_footer .d_foot {
+    overflow: hidden;
+    width: 1240px;
+    height: 100%;
+    background: #414141;
+    margin: 0 auto; }
+
+
+  #d_footer .d_foot .d_le {
+    width: 942px;
+    float: left;
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding-top: 30px; }
+
+    #d_footer .d_foot .d_le ul .d_li1 {
+      line-height: 60px;
+      font-size: 12px;
+      color: #fff; }
+
+    #d_footer .d_foot .d_le ul li {
+      line-height: 30px;
+      color: #afafaf; }
+
+  #d_footer .d_foot .d_ri {
+    float: left;
+    width: 275px;
+    padding-top: 50px; }
+
+    #d_footer .d_foot .d_ri .d_t {
+      overflow: hidden;
+      height: 130px; }
+
+      #d_footer .d_foot .d_ri .d_t img {
+        width: 100px;
+        height: 100px;
+        float: left;
+        margin: 0 0 0 42px; }
+
+      #d_footer .d_foot .d_ri .d_t div {
+        float: left;
+        margin-left: 24px;
+        width: 109px; }
+
+        #d_footer .d_foot .d_ri .d_t div i {
+          display: block;
+          font-size: 11px;
+          color: #afafaf;
+          line-height: 24px; }
+
+        #d_footer .d_foot .d_ri .d_t div strong {
+          font-size: 16px;
+          color: #afafaf;
+          line-height: 24px; }
+
+    #d_footer .d_foot .d_ri .d_b p {
+      font-size: 8px;
+      color: #afafaf;
+      line-height: 14px;
+      text-align: right; }
+
+
+  .d_ewm {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    position: fixed;
+    right: 0;
+    background: #969696;
+    background-image:url(https://www.roseonly.com.cn/upload/syspic_new/14945591270622918.svg);
+    background-size: 100%;
+    bottom: 155px; }
+
+
+    .d_ewm:hover{
+      background-color: #414141;
+    }
+
+
+    .d_xin {
+      width: 45px;
+      height: 45px;
+      border-radius: 5px;
+      position: fixed;
+      right: 0;
+      background: #969696;
+      background-image:url(https://www.roseonly.com.cn/upload/syspic_new/14703636967439422.svg) ;
+      background-size: 100%;
+      bottom: 100px; }
+
+
+      .d_xin:hover{
+        background-color: #414141;
+      }
+
+
+      .d_ding {
+        width: 45px;
+        height: 45px;
+        border-radius: 5px;
+        position: fixed;
+        right: 0;
+        background: #969696;
+        bottom: 45px;
+        display: none;
+        background-image:url(https://www.roseonly.com.cn/upload/syspic_new/14703637041003761.svg) ;
+        background-size: 100%;
+        transition: all 1s inherit; }
+
+
+        .d_ding:hover{
+          background-color: #414141;
+        }
