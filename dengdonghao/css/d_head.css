@@ -1,0 +1,13 @@
+#d_hbox {
+  height: 160px;
+  background: #414141;
+}
+#d_hbox .d_hbox {
+  height: 160px;
+  background: #414141;
+  width: 1240px;
+  margin: 0 auto;
+}
+#d_hbox .d_hbox .d_hbt {
+  height: 40px;
+}
