@@ -1,0 +1,22 @@
+{
+    "banner1":{
+        "code":[1,2,3,4,5,6,7,8,9],
+        "imgurl":["./img/w_20.jpg","./img/w_21.jpg","./img/w_22.jpg","./img/w_23.jpg","./img/w_24.jpg","./img/w_28.jpg","./img/w_29.jpg","./img/w_30.jpg","./img/w_31.jpg","./img/w_32.jpg"]
+    },
+    "banner2":{
+        "code":[1,2,3,4],
+        "imgurl":["./img/w_37.jpg","./img/w_38.jpg","./img/w_41.jpg","./img/w_42.jpg"]
+    },
+    "banner3":{
+        "code":[1,2,3,4,5,6,7,8,9],
+        "imgurl":["./img/w_45.jpg","./img/w_46.jpg","./img/w_47.jpg","./img/w_48.jpg","./img/w_49.jpg","./img/w_50.jpg","./img/w_51.jpg","./img/w_52.jpg","./img/w_53.jpg"]
+    },
+    "banner4":{
+        "code":[1,2,3,4,5,6,7,8,9,10],
+        "imgurl":["./img/w_75.jpg","./img/w_76.jpg","./img/w_77.jpg","./img/w_78.jpg","./img/w_80.jpg","./img/w_81.jpg","./img/w_82.jpg","./img/w_83.jpg","./img/w_84.jpg","./img/w_85.jpg"]
+    },
+    "banner5":{
+        "code":[1,2,3,4,5,6,7,8,9,10,11,12],
+        "imgurl":["./img/w_88.jpg","./img/w_89.jpg","./img/w_90.jpg","./img/w_91.jpg","./img/w_92.jpg","./img/w_93.jpg","./img/w_94.jpg","./img/w_95.jpg","./img/w_96.jpg","./img/w_97.jpg"]
+    }
+}

@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 1240px;
+}
+
+.banner {
+    position: relative;
+    width: 1240px;
+    height: 450px;
+    cursor: pointer;
+}
+
+.imgs {
+    position: relative;
+    height: 450px;
+    top: 0;
+    left: 0;
+}
+.imgs li{
+    display:none;
+   
+}
+.imgs li img {
+
+    width: 1240px;
+    height: 450px;
+
+}
+.imgs .show{
+    display:block;
+}
+
+.circle {
+
+    position: absolute;
+    text-align: center;
+    /* width: 140px;
+    height: 30px; */
+    left: 557px;
+    bottom: 10px;
+}
+
+.circle li {
+    width: 8px;
+    height: 8px;
+    background:white;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 8px;
+}
+.circle .active{
+    background:rgb(24, 10, 10);
+  
+}
+.left{
+    position:absolute;
+    left:0;
+    top:45%;
+    display:none;
+
+}
+.right{
+    position:absolute;
+    right:0;
+    top:45%;
+    display:none;
+}
+/* end banner */
+
+/* .img49,.img40,.img42,.goods{
+    width:1240px;
+} */
+.img49{
+    height:476px;
+}
+.img40{
+    height:450px;
+}
+.img42{
+    height:475px;
+}
+.goods ul li{
+    float:left;
+}
+.img47,.img20{
+float:left;
+}
+.xin img{
+    float:left;
+}
+.wawa ol li{
+    float:left;
+}
+.shi img{
+    float:left;
+}
+.xiang img{
+    float:left;
+}
+.end img{
+    float:left;
+}
+.shi{
+    overflow: hidden;
+}
+.w_li{
+    overflow: hidden;
+}
+.goods{
+    overflow: hidden;
+}
+.person{
+    overflow: hidden;
+}
+.xin{
+    overflow: hidden;
+}
+.wawa{
+    overflow: hidden;
+}
+.xiang{
+    overflow: hidden;
+}
+.end{
+    overflow: hidden;
+}

@@ -1,0 +1,147 @@
+
+/* *********************************     公共部分      **************************************** */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+em{
+    font-style: normal;
+}
+/* *********************************     大盒子部分      **************************************** */
+
+.x_wrap{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* *********************************     头部背景图部分      ************************************* */
+
+.x_img{
+    height: 95px;
+    margin: 10px 0px;
+    /* background: url(../img/x_1800000095.jpg); */
+}
+
+/* *********************************     筛选栏部分      **************************************** */
+
+.x_screen{
+    line-height: 40px;
+    letter-spacing: 1px; 
+    margin-bottom: 10px; 
+    border-top: solid 1px #414141;
+    border-bottom: solid 1px #414141; 
+    position: relative;
+}
+.x_screen a{
+    margin: 0 30px;
+    color: #414141;
+    display: inline-block;
+    width: 57px;
+    text-align: center;
+    height: 32px;
+    font-family: '微软雅黑', 'Microsoft YaHei';
+    font-size: 14px;
+    color: #414141;
+}
+
+#x_sales:hover {
+    font-weight: bold;
+    border-bottom: solid 9px #414141;
+}
+#x_new:hover {
+    font-weight: bold;
+    border-bottom: solid 9px #414141;
+}
+#x_addA:hover {
+    font-weight: bold;
+    border-bottom: solid 9px #414141;
+}
+/* #x_pag:hover {
+    font-weight: bold;
+} */
+#x_aa:hover {
+    font-weight: bold;
+}
+.x_aaa{
+    font-weight: bold;
+}
+.x_bbb{
+    color: black;
+}
+/* .x_addJiage{
+    font-weight: bold;
+} */
+#x_top{
+    position: absolute;
+    top: -2px;
+    left: 443px;
+    font-size: 10px;
+    color: #9d9d9d;
+}
+#x_buttom{
+    position: absolute;
+    top: 6px;
+    left: 443px;
+    font-size: 12px;
+    color: #9d9d9d;
+}
+
+
+.x_addA:hover{
+    border-bottom: solid 9px #414141;
+    font-weight: bold;
+}
+.x_addI{
+    width: 200px;
+    height: 29px;
+    margin: 5px 10px;
+    display: inline-block;
+    border: solid 1px #b3b3b3;
+    color: #000;
+    font-size: 14px;
+    text-indent: 5px;
+    outline: none;
+}
+
+/* *********************************     商品列表部分      **************************************** */
+.x_goodsList{
+    overflow: hidden;
+}
+.x_goods{
+
+    transition: 1s all;
+}
+
+.x_goods:hover{
+    background: #e5e5e5;
+}
+.x_goods{
+    width: 310px;
+    height: 415px;
+    text-align: center;
+    float: left;
+}
+
+.x_goods p{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: '微软雅黑', 'Microsoft YaHei';
+    color: #000;
+    font-weight: bold;
+}
+.x_goods span{
+    font-size: 12px;
+    line-height: 28px;
+    color: #000;
+}
+.x_goods img{
+    width: 260px;
+    height: 260px;
+}
+
+.x_border{
+    border-bottom: 9px solid #414141;
+}

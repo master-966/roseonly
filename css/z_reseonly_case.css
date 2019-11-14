@@ -1,0 +1,56 @@
+.banner{
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+.case{
+    width: 1140px;
+    margin: 26px auto 0;
+}
+.case h2{
+    color: #5a594d;
+    height: 56px;
+    line-height: 56px;
+}
+.case p{
+    font-size: 14px;
+    color: #5a594d;
+    padding-top: 14px;
+}
+.case ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+.case ul li{
+    margin-bottom: 30px;
+    width: 25%;  
+}
+#z_foot {
+    height: 270px;
+    background: #f7f0ea;
+    text-align: center;
+  }
+  #z_foot img {
+    width: 116px;
+    height: 116px;
+    margin: 37px auto 0;
+  }
+  #z_foot p {
+    line-height: 30px;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 7px;
+  }
+  #z_foot i {
+    font-size: 11px;
+    line-height: 15px;
+  }
+  #z_foot em {
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+  }
+  

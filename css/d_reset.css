@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,figure,figcaption{
+	margin:0;	/* 清除外边距 */
+	padding:0;	/* 清除内边距 */
+}
+html{
+font-size:12px;		/* 设置全局字号及字体---子元素拿到的都是继承样式 */
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+	font-weight:normal;		/* 清除文字加粗 */
+	font-size:100%;			/* 设置字号与父元素相同 */
+}
+i,em{
+	font-style:normal;		/* 清除文字倾斜 */
+}
+li{
+	list-style:none;		/* 清除列表项目符号 */
+}
+a{
+	text-decoration:none;	/* 清除下划线 */
+	color:#000;
+}
+input{
+	outline:none;			/* 清除input选中后蓝框 */
+}
+img{
+	vertical-align:top;	
+}
+fieldset{
+	border:0;
+}
+.clearfix{
+	*zoom:1;	
+}
+.clearfix:after{
+	content:' ';
+	display:block;
+	height:0;
+	clear:both;
+	overflow:hidden;	
+}
+

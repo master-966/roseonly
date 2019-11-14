@@ -1,0 +1,11 @@
+document.onscroll=function(){
+    if(document.documentElement.scrollTop>=1000){
+        $('.d_ding').css({display:'block'})
+    }
+    if(document.documentElement.scrollTop<=1000){
+        $('.d_ding').css({display:'none'})
+    }
+}
+$('.d_ding').click(function(){
+    document.documentElement.scrollTop=0
+})

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.w_1240{width: 1240px;margin: 0 auto;}
+
+/* banner1 */
+.w_lisbanner5 li{
+    float: left;
+}
+/* .w_lisbanner1 dd{
+    float: left;
+} */
+.w_lis2banner5 dl{
+    float: left;
+}
+
+.w_dianimgs3banner5 a{
+    float: left;
+}
+
+.w_dianimgs3banner5 a img{
+    display: inline-block;
+}
+
+.w_dianimgs3banner5{
+    overflow: hidden;
+}
+.w_lisbanner5{
+    overflow: hidden;
+}
+.w_lis2banner5{
+    overflow: hidden;
+}

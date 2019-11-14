@@ -1,0 +1,248 @@
+#d_box {
+  height: 674px;
+  background: url("./../img/d_bg.png");
+}
+#d_box #d_box1 {
+  width: 1240px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+#d_box #d_box1 #d_load {
+  position: absolute;
+  width: 396px;
+  top: 35px;
+  right: 0;
+  background: #fafafa;
+}
+#d_box #d_box1 #d_load .user {
+  position: relative;
+}
+#d_box #d_box1 #d_load .user i {
+  position: absolute;
+  left: 295px;
+  top: 0;
+  line-height: 45px;
+  font-size: 20px;
+}
+#d_box #d_box1 #d_load .pass {
+  position: relative;
+  width: 290px;
+  height: 45px;
+}
+#d_box #d_box1 #d_load .pass i {
+  position: absolute;
+  left: 295px;
+  top: 0;
+  line-height: 45px;
+  font-size: 20px;
+}
+#d_box #d_box1 #d_load .d_top {
+  height: 318px;
+  padding: 40px 0 0 53px;
+}
+#d_box #d_box1 #d_load .d_top select {
+  height: 45px;
+  width: 290px;
+  margin-bottom: 16px;
+}
+#d_box #d_box1 #d_load .d_top .d_div1 {
+  height: 45px;
+  box-sizing: border-box;
+  border: 1px solid #b3b3b3;
+  margin-bottom: 16px;
+  width: 290px;
+}
+#d_box #d_box1 #d_load .d_top .d_div1 span {
+  height: 45px;
+  line-height: 45px;
+  color: #000;
+  width: 49px;
+  border-right: 1px solid #b3b3b3;
+  text-align: center;
+  float: left;
+}
+#d_box #d_box1 #d_load .d_top .d_div1 input {
+  height: 100%;
+  line-height: 45px;
+  width: 238px;
+  border: 0;
+  float: left;
+  padding-left: 12px;
+  box-sizing: border-box;
+}
+#d_box #d_box1 #d_load .d_top input {
+  width: 290px;
+  height: 45px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+#d_box #d_box1 #d_load .d_top .d_div2 {
+  line-height: 38px;
+  color: #000;
+  overflow: hidden;
+  font-size: 14px;
+  width: 290px;
+}
+#d_box #d_box1 #d_load .d_top .d_div2 .d_a1 {
+  float: left;
+  color: #000;
+}
+#d_box #d_box1 #d_load .d_top .d_div2 .d_a2 {
+  float: right;
+  color: #000;
+}
+#d_box #d_box1 #d_load .d_top .d_span1 {
+  height: 45PX;
+  width: 290PX;
+  background: #C6C6C6;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  line-height: 45px;
+  text-align: center;
+}
+#d_box #d_box1 #d_load .d_bot {
+  height: 58px;
+  line-height: 58px;
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  width: 100%;
+  background: #c6c6c6;
+}
+#d_box #d_box1 #d_login {
+  position: absolute;
+  width: 396px;
+  top: 35px;
+  right: 0;
+  background: #fafafa;
+  display: none;
+}
+#d_box #d_box1 #d_login .span2 {
+  position: absolute;
+  left: 295px;
+  top: 0;
+  line-height: 45px;
+  font-size: 20px;
+}
+#d_box #d_box1 #d_login .d_div5 {
+  height: 45px;
+  width: 290px;
+  position: relative;
+}
+#d_box #d_box1 #d_login .d_top {
+  padding: 40px 0 0 53px;
+}
+#d_box #d_box1 #d_login .d_top select {
+  height: 45px;
+  width: 290px;
+  margin-bottom: 16px;
+}
+#d_box #d_box1 #d_login .d_top .d_div1 {
+  height: 45px;
+  box-sizing: border-box;
+  border: 1px solid #b3b3b3;
+  margin-bottom: 16px;
+  position: relative;
+  width: 290px;
+}
+#d_box #d_box1 #d_login .d_top .d_div1 .span1 {
+  height: 45px;
+  line-height: 45px;
+  color: #000;
+  width: 49px;
+  text-align: center;
+  float: left;
+  border-right: 1px solid #b3b3b3;
+}
+#d_box #d_box1 #d_login .d_top .d_div1 input {
+  height: 100%;
+  line-height: 45px;
+  width: 238px;
+  border: 0;
+  float: left;
+  padding-left: 12px;
+  box-sizing: border-box;
+}
+#d_box #d_box1 #d_login .d_top .d_yan {
+  height: 45px;
+  box-sizing: border-box;
+  border: 1px solid #b3b3b3;
+  margin-bottom: 16px;
+  position: relative;
+  width: 290px;
+}
+#d_box #d_box1 #d_login .d_top .d_yan .span1 {
+  height: 43px;
+  line-height: 45px;
+  color: #404040;
+  width: 98px;
+  text-align: center;
+  float: left;
+  background: #d2d2d2;
+  font-size: 20px;
+}
+#d_box #d_box1 #d_login .d_top .d_yan input {
+  height: 100%;
+  line-height: 45px;
+  width: 190px;
+  border: 0;
+  float: left;
+  padding-left: 12px;
+  box-sizing: border-box;
+}
+#d_box #d_box1 #d_login .d_top input {
+  width: 290px;
+  height: 45px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+#d_box #d_box1 #d_login .d_top .d_div2 {
+  line-height: 38px;
+  color: #000;
+  overflow: hidden;
+  font-size: 14px;
+  width: 290px;
+}
+#d_box #d_box1 #d_login .d_top .d_div2 .d_a2 {
+  float: right;
+  color: #000;
+}
+#d_box #d_box1 #d_login .d_top .d_div3 {
+  height: 30px;
+}
+#d_box #d_box1 #d_login .d_top .d_div3 input {
+  height: 12px;
+  width: 12px;
+  margin-top: 5px;
+}
+#d_box #d_box1 #d_login .d_top .d_div3 span {
+  font-size: 12px;
+  color: #000;
+}
+#d_box #d_box1 #d_login .d_top .d_span1 {
+  height: 45PX;
+  width: 290PX;
+  background: #C6C6C6;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  line-height: 45px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+#d_box #d_box1 #d_login .d_top .d_span1:hover {
+  background: #606060;
+}
+#d_box #d_box1 #d_login .d_bot {
+  height: 58px;
+  line-height: 58px;
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  width: 100%;
+  background: #c6c6c6;
+}
